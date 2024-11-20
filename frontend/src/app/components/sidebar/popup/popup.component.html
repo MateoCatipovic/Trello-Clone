@@ -1,0 +1,27 @@
+<!-- Popup modal -->
+<div class="modal" *ngIf="isModalOpen">
+  <div class="modal-content">
+    <!-- Close button -->
+    <span class="close" (click)="closeModal()">&times;</span>
+
+    <!-- Form inside the modal -->
+    <form (ngSubmit)="submitForm($event)">
+      <div class="board-div">
+        <label for="boardTitle">Board title</label>
+        <input type="text" id="boardTitle"  [(ngModel)]="boardTitle" name="boardTitle" required />
+      </div>
+
+      <div class="board-div">
+        <select id="visibility"   [(ngModel)]="visibility"  name="visibility" required>
+          <option value="" >Select one</option>
+          <option value="private">Private</option>
+          <option value="workspace">Workspace</option>
+          <option value="public">Public</option>
+        </select>
+      </div>
+
+      <!-- Submit button -->
+      <button type="submit">Create</button>
+    </form>
+  </div>
+</div>

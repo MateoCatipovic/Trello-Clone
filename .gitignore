@@ -1,0 +1,13 @@
+# Ignore Node.js dependencies
+frontend/node_modules
+
+# Ignore Angular build outputs
+frontend/dist
+
+# Ignore Java build outputs
+backend/target
+
+# Ignore IntelliJ and Eclipse metadata (optional)
+.idea/
+.classpath
+.project
