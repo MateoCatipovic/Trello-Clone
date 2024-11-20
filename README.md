@@ -1,6 +1,7 @@
 # Trello Clone
 
-This is a full-stack Trello Clone application built with **Angular** for the frontend and **Spring Boot** for the backend. The application allows users to create and manage boards.
+This is a full-stack Trello Clone application built with **Angular** for the frontend and **Spring Boot** for the backend.  
+The application allows users to create and manage boards.
 
 ## Project Structure
 
@@ -70,14 +71,14 @@ The Spring Boot server will be available at:
 
 ### **4. Running the Application**
 
-Start the backend (Spring Boot) server as described above.
+Start the backend (Spring Boot) server as described above.  
 Start the frontend (Angular) development server.
 
 Access the app at:
 (http://localhost:4200)
 
 ***API Endpoints***
-Endpoint	Method	Description
-/api/boards	GET	Fetch all boards
-/api/boards/{id}	GET	Fetch a board by ID
-/api/boards	POST	Create a new board
+Endpoint	Method	Description  
+/api/boards	GET	Fetch all boards  
+/api/boards/{id}	GET	Fetch a board by ID  
+/api/boards	POST	Create a new board  
